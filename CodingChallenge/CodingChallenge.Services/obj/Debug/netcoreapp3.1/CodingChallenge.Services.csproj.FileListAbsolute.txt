@@ -1,0 +1,13 @@
+C:\Users\gurdo\source\repos\greenslate\CodingChallenge\CodingChallenge.Services\bin\Debug\netcoreapp3.1\CodingChallenge.Services.deps.json
+C:\Users\gurdo\source\repos\greenslate\CodingChallenge\CodingChallenge.Services\bin\Debug\netcoreapp3.1\CodingChallenge.Services.dll
+C:\Users\gurdo\source\repos\greenslate\CodingChallenge\CodingChallenge.Services\bin\Debug\netcoreapp3.1\CodingChallenge.Services.pdb
+C:\Users\gurdo\source\repos\greenslate\CodingChallenge\CodingChallenge.Services\bin\Debug\netcoreapp3.1\CodingChallenge.Domain.dll
+C:\Users\gurdo\source\repos\greenslate\CodingChallenge\CodingChallenge.Services\bin\Debug\netcoreapp3.1\CodingChallenge.Models.dll
+C:\Users\gurdo\source\repos\greenslate\CodingChallenge\CodingChallenge.Services\bin\Debug\netcoreapp3.1\CodingChallenge.Domain.pdb
+C:\Users\gurdo\source\repos\greenslate\CodingChallenge\CodingChallenge.Services\bin\Debug\netcoreapp3.1\CodingChallenge.Models.pdb
+C:\Users\gurdo\source\repos\greenslate\CodingChallenge\CodingChallenge.Services\obj\Debug\netcoreapp3.1\CodingChallenge.Services.csprojAssemblyReference.cache
+C:\Users\gurdo\source\repos\greenslate\CodingChallenge\CodingChallenge.Services\obj\Debug\netcoreapp3.1\CodingChallenge.Services.AssemblyInfoInputs.cache
+C:\Users\gurdo\source\repos\greenslate\CodingChallenge\CodingChallenge.Services\obj\Debug\netcoreapp3.1\CodingChallenge.Services.AssemblyInfo.cs
+C:\Users\gurdo\source\repos\greenslate\CodingChallenge\CodingChallenge.Services\obj\Debug\netcoreapp3.1\CodingChallenge.Services.csproj.CopyComplete
+C:\Users\gurdo\source\repos\greenslate\CodingChallenge\CodingChallenge.Services\obj\Debug\netcoreapp3.1\CodingChallenge.Services.dll
+C:\Users\gurdo\source\repos\greenslate\CodingChallenge\CodingChallenge.Services\obj\Debug\netcoreapp3.1\CodingChallenge.Services.pdb
