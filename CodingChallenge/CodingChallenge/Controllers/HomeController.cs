@@ -23,10 +23,10 @@ namespace CodingChallenge.Controllers
             _userService = userService;
         }
 
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
             var model = new UserViewModel();
-            await SetupViewModel(model);
+            SetupViewModel(model);
             return View(model);
         }
 
@@ -42,15 +42,15 @@ namespace CodingChallenge.Controllers
         }
 
 
-        private async Task SetupViewModel(UserViewModel model)
+        private void SetupViewModel(UserViewModel model)
         {
-            var user = _userService.GetAllUser().Select(x => new UserViewModel { Id = x.Id, FullName = $"{x.FirstName} {x.LastName}" }).ToList();
-            var defaultUser = user.Count > 0 ? user.FirstOrDefault() : new UserViewModel();
+            var user = _userService.GetAllUser();   
 
             model.Users = DropDown.GetDropDownPappingGeneric(
                 user,
-                nameof(defaultUser.Id),
-                nameof(defaultUser.FullName)
+                nameof(model.Id),
+                nameof(model.FullName),
+                -1
             );
 
             model.Users.Insert(0, (new SelectListItem { Text = "USER NAME (Default '--')", Value = "0" }));
