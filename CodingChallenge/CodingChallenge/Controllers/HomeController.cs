@@ -48,9 +48,8 @@ namespace CodingChallenge.Controllers
 
             model.Users = DropDown.GetDropDownPappingGeneric(
                 user,
-                nameof(model.Id),
-                nameof(model.FullName),
-                -1
+                nameof(UserViewModel.Id),
+                nameof(UserViewModel.FullName)
             );
 
             model.Users.Insert(0, (new SelectListItem { Text = "USER NAME (Default '--')", Value = "0" }));

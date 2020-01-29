@@ -11,9 +11,8 @@ namespace CodingChallenge.Utils
         {
             List<SelectListItem> items = new List<SelectListItem>();
 
-            foreach (var item in data)
+            foreach (var view in data)
             {
-                var view = item;
                 var itemKey = (int)(view.GetType().GetProperty(key).GetValue(view, null));
                 var itemValue = view.GetType().GetProperty(value).GetValue(view, null).ToString();
                 var selected = keySelected != null && keySelected.Any(x => x == itemKey);
