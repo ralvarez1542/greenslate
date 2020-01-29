@@ -14,3 +14,5 @@ Coding Challenge is a project is a project to know the projects that belong to u
     # Script
     Scaffold-DbContext "Server=(LocalDb)\MSSQLLocalDB;Database=CodingChallenge;Trusted_Connection=True;"         
     Microsoft.EntityFrameworkCore.SqlServer -OutputDir DomainModels 
+    # Note
+    Change the Server for the name of your server.
